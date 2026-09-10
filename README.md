@@ -2,7 +2,7 @@
 
 Bienvenido a la documentación de la tercera semana de trabajo en el marco del **Desafío 06: Monitoreo y gestión de calidad del aire en Lab881**. 
 
-![Equipo SMAIRT](image_3.png)
+![Equipo SMAIRT](96ee638a-b89a-44bc-b7c1-01baa240f59b.jpg)
 
 ---
 
