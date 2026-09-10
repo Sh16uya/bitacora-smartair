@@ -1,72 +1,74 @@
-# bitacora-smartair
-Bitácora del proyecto sobre la telemetría de sensores para calidad del aire
-## MINUTA DE LA 1.ª REUNIÓN
+# Bitácora Semana 3 - Equipo SMAIRT
 
-## Equipo SMAIRT
+Bienvenido a la documentación de la tercera semana de trabajo en el marco del **Desafío 06: Monitoreo y gestión de calidad del aire en Lab881**. 
 
-Desafío 06 – Sostenibilidad | Monitoreo y gestión de calidad del aire en Lab881
+![Equipo SMAIRT](image_3.png)
 
-| Fecha | 20 / 08 / 2026 |
-| --- | --- |
-| Hora | 15.00 |
-| Lugar / modalidad | Presencial |
-| Integrantes | Matias Campos · Vanessa Contreras · Maximiliano Castro · Renato Basías |
+---
 
-## 1. Foto del equipo
-![Foto del equipo](ImagenGrupo.jpeg)
+## 1. Pitch: El Enemigo Invisible en Lab881
 
-## 2. Nombre del equipo
+**1. El Gancho (Contexto)**
+¿Se imaginan trabajar todos los días creando e innovando, pero respirando un aire que pone en riesgo su salud sin que ustedes lo noten? Esta es la realidad actual de los operadores en el espacio de fabricación Lab881 del Hub Providencia. 
 
-## SMAIRT
+**2. El Problema (Causa)**
+Enmarcado en el área de Sostenibilidad, nos enfrentamos a un problema crítico: la máquina de corte y grabado láser del taller genera constantemente material particulado y gases contaminantes. El sistema de filtrado con el que cuenta esta máquina actualmente es insuficiente para contener estas emisiones.
 
-## 3. Valores del equipo
+**3. El Impacto (Consecuencia)**
+Esto genera un deterioro constante de la calidad del aire. Hoy en día, los operadores intentan aplicar medidas de ventilación en el taller, pero lo hacen "a ciegas" porque no cuentan con herramientas para medir la calidad del aire ni tienen información objetiva. Esta falta de datos les impide saber en qué momento exacto el ambiente se vuelve realmente peligroso, dejándolos expuestos a diario. 
 
-| Valor | Aplicación dentro del equipo |
-| --- | --- |
-| Responsabilidad | Cumplir los compromisos asumidos y responder por la calidad del trabajo realizado. |
-| Respeto | Escuchar y valorar las opiniones de cada integrante, manteniendo un trato cordial. |
-| Colaboración | Trabajar de manera integrada, compartiendo conocimientos, apoyo y decisiones. |
-| Compromiso | Participar activamente y mantener foco en los objetivos comunes del Capstone. |
-| Comunicación | Informar avances, dificultades y acuerdos de forma clara y oportuna. |
+**4. El Desafío (Cierre)**
+Nuestro Desafío 06 busca visibilizar este problema invisible. El reto de nuestro equipo no es solo tecnológico, es de salud humana: necesitamos encontrar la manera de gestionar el estado del aire entregando información en tiempo real. Solo así podremos orientar de manera eficiente las medidas de ventilación y proteger la salud de quienes dan vida al espacio Lab881.
 
-## 4. Normas del equipo
+---
 
-- Cumplir las tareas y fechas acordadas por el equipo.
+## 2. Definición y Alcance del Desafío
 
-- Participar activamente en reuniones, actividades y decisiones del proyecto.
+* **Tema o ámbito del desafío:** Aborda específicamente la necesidad de monitoreo y gestión de la calidad del aire frente a emisiones contaminantes.
+* **Contexto:** La situación ocurre dentro del espacio de fabricación Lab881, correspondiente al Hub Providencia.
+* **Actores involucrados o afectados:** Los principales afectados son los operadores del espacio de fabricación Lab881 que trabajan a diario con la maquinaria.
+* **Equipo ejecutor (SMAIRT):** Matías Campos, Vanessa Contreras, Maximiliano Castro y Renato Bastías.
+* **Situación problemática inicial:** La máquina de corte y grabado láser genera constantemente material particulado y gases contaminantes durante su operación, y el sistema de filtrado actual es ineficiente e insuficiente para el espacio.
+* **Relevancia del problema:** Existe un deterioro constante del aire que representa un riesgo inminente y a largo plazo para la salud de los operadores. Dado que basan su percepción de riesgo en la subjetividad y no saben en qué momento exacto el ambiente se vuelve peligroso, no pueden tomar medidas de mitigación o ventilación a tiempo.
+* **Qué sabemos hasta ahora:** El filtro de la máquina no da abasto. Tenemos la certeza de que la solución obligatoriamente requiere un sistema de monitoreo continuo compuesto por sensores en tiempo real y un sistema de alertas para activar la ventilación.
+* **Qué todavía no saben:** Faltan definir las opciones técnicas viables de sensores específicos para medir compuestos orgánicos volátiles (VOCs) y material particulado. También necesitamos investigar los límites permisibles exactos según la normativa chilena de calidad del aire para fijar los umbrales de alerta, estructurar la arquitectura de comunicación entre los sensores y la pantalla, y diseñar el diagrama de flujo lógico para emitir las alertas oportunas.
 
-- Mantener una comunicación respetuosa, clara y oportuna.
+---
 
-- Avisar con anticipación cuando una dificultad pueda afectar una tarea o reunión.
+## 3. Ficha Diagnóstica: ¿Dónde estamos?
 
-- Registrar los acuerdos, avances y cambios relevantes en la minuta o bitácora.
+### 1. ¿Qué está ocurriendo? (El problema observable)
+La máquina de corte y grabado láser del taller genera gases contaminantes y material particulado todo el tiempo, y el filtro que tiene ahora simplemente no da abasto para limpiar el ambiente.
 
-- Revisar en conjunto los entregables antes de su presentación y solicitar apoyo docente si un conflicto interno no puede resolverse como equipo.
+### 2. ¿A quién le ocurre?
+Directamente a las operadoras y operadores que trabajan en el espacio de fabricación Lab881.
 
-## 5. Definición del desafío
+### 3. ¿Por qué importa? (3 consecuencias concretas)
+* El aire del espacio se deteriora constantemente mientras la máquina funciona.
+* Existe un riesgo directo e inminente para la salud respiratoria del equipo.
+* Como no hay datos reales, la gente termina ventilando "a ciegas", exponiéndose al peligro sin darse cuenta.
 
-El equipo SMAIRT abordará el Desafío 06, centrado en monitorear y gestionar la calidad del aire del espacio de fabricación Lab881 durante el uso de la máquina de corte y grabado láser. Debido a que su operación puede generar material particulado, compuestos orgánicos volátiles y otros contaminantes, el proyecto buscará desarrollar un sistema piloto de monitoreo continuo que mida variables relevantes, visualice los datos y genere alertas ante condiciones previamente definidas. Con la información obtenida se propondrán medidas de mitigación o mejoras de ventilación y extracción que contribuyan a una operación más segura y eficiente del laboratorio.
+### 4. ¿Qué sabemos?
+* El problema está radicado en el Lab881 del Hub Providencia.
+* La fuente principal es la cortadora láser.
+* Tomar medidas reactivas o guiarse por la intuición no sirve de nada.
+* La solución que armemos necesita sí o sí sensores y un sistema de alertas.
 
-## Pregunta orientadora del desafío
+### 5. ¿Qué creemos pero aún no sabemos? (Supuestos)
+* Creemos que los operadores sienten una falsa seguridad; si no ven humo o no huelen nada raro, asumen que el aire está "bien".
+* Asumimos que al contar con datos visibles en tiempo real, los usuarios modificarán de inmediato sus prácticas de ventilación y cuidado.
 
-¿Cómo podríamos medir y gestionar de manera eficiente la calidad del aire del espacio de fabricación
+### 6. ¿Qué necesitan averiguar y todavía no saben? (4 preguntas prioritarias)
+1. ¿Qué sensores específicos y reales nos sirven para medir los VOCs y el material particulado?
+2. ¿Cuáles son los límites permisibles exactos según la normativa chilena para saber cuándo hacer que salte la alerta?
+3. ¿Cómo estructuramos la arquitectura técnica para que los sensores den el aviso en tiempo real?
+4. ¿Cómo armamos la lógica y el diagrama de flujo para que las alarmas (visuales o sonoras) avisen justo en el momento oportuno?
 
-Lab881 al utilizar la máquina de corte y grabado láser?
+---
 
+## 4. Próximos Pasos (Investigación y Desarrollo)
 
-## DECLARACIÓN DE COMPROMISO DEL EQUIPO
-
-Como integrantes del equipo SMAIRT, declaramos nuestro compromiso de participar de manera activa, responsable y colaborativa durante el desarrollo del Proyecto Capstone, aportando nuestras capacidades al cumplimiento de los objetivos del Desafío 06 y manteniendo una comunicación respetuosa y transparente entre todos los miembros.
-
-## Compromiso SMART común del equipo
-
-Cada integrante se compromete a participar activamente en al menos el 90% de las reuniones programadas, cumplir el 100% de las tareas que le sean asignadas dentro de los plazos acordados, comunicar cualquier impedimento con al menos 24 horas de anticipación cuando sea posible y contribuir a que los principales acuerdos y avances queden registrados en la bitácora del equipo, desde esta primera reunión hasta la entrega final del proyecto.
-
-Con esta declaración, cada integrante acepta el compromiso común y asume responsabilidad individual y colectiva por el desarrollo del proyecto.
-
-| Integrante | Firma | Fecha |
-| --- | --- | --- |
-| Matias Campos |   | 20 / 08 / 2026 |
-| Vanessa Contreras |   | 20 / 08 / 2026 |
-| Maximiliano Castro |   | 20/ 08 / 2026 |
-| Renato Bastias |   | 20/ 08 / 2026 |
+* **Hardware y Sensores:** Selección comparativa de módulos para medición de material particulado (PM2.5 / PM10) y sensores de VOCs.
+* **Marco Regulatorio:** Revisión del Decreto Supremo 594 sobre condiciones ambientales en lugares de trabajo para parametrizar los umbrales de riesgo.
+* **Arquitectura del Sistema:** Definición del microcontrolador y los protocolos de comunicación entre los sensores y el módulo de visualización.
+* **Lógica de Alertas:** Diagrama de estados para determinar cuándo activar avisos visuales (LED/pantalla) y sonoros (buzzer).
