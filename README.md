@@ -1,2 +1,2 @@
 # bitacora-smartair
-Receso por paro estudiantil
+Visita a HUB Providencia
