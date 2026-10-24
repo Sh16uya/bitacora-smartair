@@ -8,7 +8,7 @@ Desafío 06 – Sostenibilidad | Monitoreo y gestión de calidad del aire en Lab
 | --- | --- |
 | Hora | 15.00 |
 | Lugar / modalidad | Presencial |
-| Integrantes | Matias Campos · Vanessa Contreras · Maximiliano Castro · Renato Basías |
+| Integrantes | Matias Campos · Vanessa Contreras · Maximiliano Castro · Renato Bastías |
 
 ## 1. Foto del equipo
 ![Foto del equipo](ImagenGrupo.jpeg)
