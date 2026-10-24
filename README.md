@@ -1,6 +1,6 @@
 # Bitácora Semana 5 - Equipo SMAIRT
 
-Desafío 06 – Sostenibilidad | Monitoreo y gestión de calidad del aire en Lab881
+Desafío 06 – Sostenibilidad | Monitoreo y gestión de calidad del aire en Lab881[cite: 1, 5]
 
 ## MINUTA DE LA 5.ª REUNIÓN
 
@@ -8,61 +8,55 @@ Desafío 06 – Sostenibilidad | Monitoreo y gestión de calidad del aire en Lab
 | --- | --- |
 | Hora | 14:00 |
 | Lugar / modalidad | Presencial |
-| Integrantes presentes | Matias Campos, Vanessa Contreras, Maximiliano Castro, Renato Bastías |
+| Integrantes presentes | Matias Campos, Vanessa Contreras, Maximiliano Castro, Renato Bastías[cite: 2] |
 | Integrantes ausentes | Ninguno |
 
 ## 1. Objetivo de la semana
-Visita al HUB de Providencia para solventar consultas o dudas respecto a la problemática y así trabajar en la solución
+Visita al HUB de Providencia para solventar consultas o dudas respecto a la problemática y así trabajar en la solución.
 
 ## 2. Desarrollo del trabajo
-### 3.1 [Tema o actividad principal]
-[Descripción de lo realizado: investigación, diseño, pruebas, decisiones técnicas.]
+### 3.1 Visita y reconocimiento en Lab881
+Realizamos una visita presencial al espacio de fabricación Lab881 en Hub Providencia para observar directamente el entorno de trabajo y la operación de la maquinaria[cite: 1, 5]. Inspeccionamos la máquina de corte y grabado láser junto con el sistema de filtrado que se utiliza actualmente[cite: 5].
 
-![Descripción de la imagen](NombreArchivo.jpeg)
+![Visita al Hub 1](imagen1.jpeg)
+![Visita al Hub 2](imagen2.jpeg)
 
-* **Hallazgos:** [Qué descubrimos o aprendimos.]
-* **Dificultades:** [Qué obstáculos aparecieron y cómo se abordaron.]
-* **Decisiones tomadas:** [Qué se decidió y por qué.]
+- **Hallazgos:** Confirmamos in situ que la máquina láser emite gases contaminantes y material particulado de manera constante durante su funcionamiento[cite: 1, 5]. El sistema de filtrado instalado es ineficiente y no da abasto para retener las emisiones en el recinto[cite: 1, 5].
+- **Dificultades:** Identificar la ubicación física óptima dentro del espacio para instalar el futuro prototipo sin entorpecer el flujo de trabajo de los operadores. 
+- **Decisiones tomadas:** Se ratificó que la mitigación basada en la intuición de los operadores no funciona, por lo que avanzaremos obligatoriamente con el diseño de un sistema de monitoreo continuo[cite: 5].
 
-### 3.2 [Otro tema o actividad]
-[Repetir la estructura anterior según sea necesario.]
+### 3.2 Levantamiento de requerimientos técnicos
+Analizamos el área para determinar cómo se estructurará la comunicación entre los componentes del prototipo. 
+
+- **Hallazgos:** Los operadores carecen de paneles indicadores y toman medidas de ventilación "a ciegas", exponiéndose sin saber cuándo el ambiente es crítico[cite: 5].
+- **Dificultades:** Faltan definir los componentes técnicos exactos y accesibles en el mercado local para la medición precisa.
+- **Decisiones tomadas:** El sistema integrará ineludiblemente sensores de medición en tiempo real, una pantalla de visualización de datos y un sistema de alertas para activar la ventilación[cite: 5].
 
 ## 4. Validación: Certezas e Incógnitas
 
 **Lo que sabemos (Certezas):**
-* [Dato validado]
+- El foco físico de la problemática se ubica en el Lab881 del Hub Providencia[cite: 1, 5].
+- La fuente principal de contaminación comprobada es la cortadora láser[cite: 5].
+- El sistema de filtrado de la máquina láser es insuficiente para la carga de trabajo habitual[cite: 5].
+- La mitigación requiere un sistema de monitoreo compuesto por sensores en tiempo real y alertas para gestionar la ventilación de manera oportuna[cite: 5].
 
 **Lo que necesitamos saber (Preguntas clave):**
-* [Pregunta pendiente para la próxima semana]
+- ¿Cuáles son los límites permisibles exactos según la normativa chilena (ej. D.S. 594) para configurar los umbrales de alerta?[cite: 5]
+- ¿Qué modelos específicos de sensores comerciales son viables para cuantificar compuestos orgánicos volátiles (VOCs) y material particulado (PM2.5 / PM10)?[cite: 5]
+- ¿Cómo armamos la lógica y el diagrama de flujo para que las alarmas avisen justo en el momento oportuno?[cite: 5]
 
 ## 5. Avance del prototipo
 | Componente | Estado | Detalle |
 | --- | --- | --- |
-| Sensores (MP, COV) | [No iniciado / En curso / Listo] | [Modelo, pruebas, calibración] |
-| Pantalla de visualización | [Estado] | [Detalle] |
-| Sistema de alertas | [Estado] | [Detalle] |
-| Comunicación / arquitectura | [Estado] | [Detalle] |
+| Sensores (MP, COV) | En curso | Selección comparativa de módulos para medición de material particulado y sensores de VOCs[cite: 5]. |
+| Pantalla de visualización | No iniciado | Definición pendiente del microcontrolador y el módulo de display[cite: 5]. |
+| Sistema de alertas | No iniciado | Elaboración pendiente del diagrama de estados para determinar cuándo activar avisos visuales y sonoros[cite: 5]. |
+| Comunicación / arquitectura | En curso | Estructuración inicial de los protocolos de comunicación entre los sensores y el módulo de visualización[cite: 5]. |
 
 ## 6. Acuerdos y tareas para la próxima semana
 
 | Tarea | Responsable | Fecha límite |
 | --- | --- | --- |
-| [Tarea] | [Nombre] | [DD / MM / 2026] |
-
-## 7. Riesgos y apoyo requerido
-* [Riesgo o impedimento, y apoyo docente o externo que se necesita.]
-
-## 8. Evidencias y anexos
-* [Fotos, esquemas, hojas de datos, enlaces, código, mediciones.]
-
-## 9. Reflexión del equipo
-[Breve balance: qué funcionó, qué mejorar en la dinámica del equipo, y cumplimiento del compromiso SMART (asistencia, tareas, comunicación).]
-
-## Registro de asistencia
-
-| Integrante | Asistencia | Firma |
-| --- | --- | --- |
-| Matias Campos | [Sí / No] |   |
-| Vanessa Contreras | [Sí / No] |   |
-| Maximiliano Castro | [Sí / No] |   |
-| Renato Bastías | [Sí / No] |   |
+| Investigar y listar opciones viables de sensores de material particulado y VOCs[cite: 6]. | Renato Bastías[cite: 6] | 01 / 10 / 2026 |
+| Diseñar diagrama de flujo inicial sobre emisión de alertas visuales y sonoras[cite: 6]. | Vanessa Contreras[cite: 6] | 01 / 10 / 2026 |
+| Investigar los límites permisibles de calidad del aire según normativa chilena[cite: 6]. | Matías Campos
