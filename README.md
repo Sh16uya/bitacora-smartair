@@ -21,7 +21,7 @@ Realizamos una visita presencial al espacio de fabricación Lab881 en Hub Provid
 ![Visita al Hub 1](imagen1.jpeg)
 ![Visita al Hub 2](imagen2.jpeg)
 
-- **Hallazgos:** Confirmamos in situ que la máquina láser emite gases contaminantes y material particulado de manera constante durante su funcionamiento. El sistema de filtrado instalado es ineficiente y no da abasto para retener las emisiones en el recinto.
+- **Hallazgos:** Confirmamos que la máquina láser emite gases contaminantes y material particulado de manera constante durante su funcionamiento. El sistema de filtrado instalado es ineficiente y no da abasto para retener las emisiones en el recinto.
 - **Dificultades:** Identificar la ubicación física óptima dentro del espacio para instalar el futuro prototipo sin entorpecer el flujo de trabajo de los operadores. 
 - **Decisiones tomadas:** Se ratificó que la mitigación basada en la intuición de los operadores no funciona, por lo que avanzaremos obligatoriamente con el diseño de un sistema de monitoreo continuo.
 
@@ -45,31 +45,12 @@ Analizamos el área para determinar cómo se estructurará la comunicación entr
 - ¿Qué modelos específicos de sensores comerciales son viables para cuantificar compuestos orgánicos volátiles (VOCs) y material particulado (PM2.5 / PM10)?
 - ¿Cómo armamos la lógica y el diagrama de flujo para que las alarmas avisen justo en el momento oportuno?
 
-## 5. Avance del prototipo
-| Componente | Estado | Detalle |
-| --- | --- | --- |
-| Sensores (MP, COV) | En curso | Selección comparativa de módulos para medición de material particulado y sensores de VOCs. |
-| Pantalla de visualización | No iniciado | Definición pendiente del microcontrolador y el módulo de display. |
-| Sistema de alertas | No iniciado | Elaboración pendiente del diagrama de estados para determinar cuándo activar avisos visuales y sonoros. |
-| Comunicación / arquitectura | En curso | Estructuración inicial de los protocolos de comunicación entre los sensores y el módulo de visualización. |
 
-## 6. Acuerdos y tareas para la próxima semana
 
-| Tarea | Responsable | Fecha límite |
-| --- | --- | --- |
-| Investigar y listar opciones viables de sensores de material particulado y VOCs. | Renato Bastías | 01 / 10 / 2026 |
-| Diseñar diagrama de flujo inicial sobre emisión de alertas visuales y sonoras. | Vanessa Contreras | 01 / 10 / 2026 |
-| Investigar los límites permisibles de calidad del aire según normativa chilena. | Matías Campos | 30 / 09 / 2026 |
-| Redactar propuesta de arquitectura del sistema (esquema de conexión). | Maximiliano Castro | 01 / 10 / 2026 |
-
-## 7. Riesgos y apoyo requerido
-- **Riesgos:** Retrasos en la toma de decisiones sobre la compra de los sensores definitivos, lo que podría aplazar el inicio de la programación del microcontrolador.
-- **Apoyo requerido:** Necesitamos validación docente sobre la viabilidad técnica de los sensores preseleccionados y orientación sobre la normativa chilena aplicable al espacio cerrado.
-
-## 8. Evidencias y anexos
+## 5. Evidencias y anexos
 - ![Evidencia 3](imagen3.jpeg)
 - ![Evidencia 4](imagen4.jpeg)
 - ![Evidencia 5](imagen5.jpeg)
 
-## 9. Reflexión del equipo
+## . Reflexión del equipo
 La visita al Hub Providencia fue fundamental para dimensionar espacialmente el problema y confirmar empíricamente la ineficacia del sistema de filtrado. El equipo logró un buen nivel de asistencia y participación, cumpliendo con el compromiso SMART de comunicación y responsabilidad asumido al inicio del Capstone. Identificamos que debemos acelerar la fase de investigación técnica (normativa y hardware) para no retrasar el ensamblaje del prototipo en las próximas semanas.
