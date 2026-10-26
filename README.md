@@ -59,9 +59,6 @@ Los usuarios del Lab881 en Hub Providencia perciben una mala calidad del aire y 
 
 ## 5. Registro Fotográfico
 
-![Zona de comedores del patio central](Captura%20de%20pantalla%202026-10-26%20142938.jpg)[cite: 8]
-![Mesa de ping pong en el patio central](Captura%20de%20pantalla%202026-10-26%20142951.jpg)[cite: 9]
-![Pasillo junto al patio central](Captura%20de%20pantalla%202026-10-26%20143000.jpg)[cite: 10]
-| Vanessa Contreras | [Sí / No] |   |
-| Maximiliano Castro | [Sí / No] |   |
-| Renato Bastías | [Sí / No] |   |
+![Zona de comedores del patio central](Captura%20de%20pantalla%202026-10-26%20142938.jpg)
+![Mesa de ping pong en el patio central](Captura%20de%20pantalla%202026-10-26%20142951.jpg)
+![Pasillo junto al patio central](Captura%20de%20pantalla%202026-10-26%20143000.jpg)
