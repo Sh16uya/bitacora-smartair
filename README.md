@@ -44,5 +44,5 @@ Como ejercicio práctico de prototipado rápido y colaboración, realizamos el d
 ---
 
 ## 6. Evidencias y Anexos
-![Descripción de la imagen]("WhatsApp Image 2026-11-08 at 22.36.15 (1).jpeg")
-![Descripción de la imagen]("WhatsApp Image 2026-11-08 at 22.36.15.jpeg")
+![Descripción de la imagen](WhatsApp%20Image%202026-11-08%20at%2022.36.15%20(1).jpeg)
+![Descripción de la imagen](WhatsApp%20Image%202026-11-08%20at%2022.36.15.jpeg)
