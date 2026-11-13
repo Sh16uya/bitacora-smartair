@@ -305,3 +305,4 @@ Tareas técnicas (circuito, código, material gráfico): _(completar con la pers
 ---
 
 ##Archivos.
+!('WhatsApp Image 2026-11-12 at 16.53.41.jpeg')
